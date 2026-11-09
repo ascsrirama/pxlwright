@@ -1,0 +1,6 @@
+node_modules
+dist
+
+# tests and test harnesses (kept locally, not committed)
+*.test.ts
+scripts/parity/
