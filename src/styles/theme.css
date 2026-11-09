@@ -34,6 +34,7 @@
   /* shapes and type */
   --radius: 8px;
   --font: 13px/1.45 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --brand-font: 'Orbitron', var(--mono);  /* logo wordmark */
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
 
   /* layout */

@@ -26,7 +26,7 @@
       <rect x="2" y="5" width="20" height="14" rx="2.5" fill="var(--canvas-handle)" stroke="var(--accent)" stroke-width="1.6" />
       <path d="M6 15h3v-4h3v2h3v-3h3" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" />
     </svg>
-    <span>OLED&nbsp;Designer</span>
+    <span class="wordmark"><span class="pxl">PXL</span>WRIGHT</span>
   </div>
 
   <div class="tools">
@@ -59,7 +59,10 @@
     background: var(--panel);
     border-bottom: 1px solid var(--line);
   }
-  .brand { display: flex; align-items: center; gap: 8px; font-weight: 650; letter-spacing: 0.01em; }
+  .brand { display: flex; align-items: center; gap: 9px; }
+  .brand svg { filter: drop-shadow(0 0 4px var(--accent-line)); }
+  .wordmark { font-family: var(--brand-font); font-weight: 800; font-size: 14px; letter-spacing: 0.22em; }
+  .pxl { color: var(--accent); text-shadow: 0 0 8px var(--accent-line), 0 0 2px var(--accent); }
   .tools, .zoom { display: flex; align-items: center; gap: 4px; }
   .zoom { gap: 10px; margin-left: 6px; }
   .zoom input[type='range'] { width: 110px; accent-color: var(--accent); }

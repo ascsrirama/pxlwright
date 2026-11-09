@@ -1,6 +1,6 @@
-# OLED Designer
+# PXLWRIGHT
 
-OLED Designer is a browser-based editor for designing user interfaces for small displays, such as the common 0.96" SSD1306 OLED or round GC9A01 screens. You lay out your screen by dragging elements onto a pixel-accurate canvas, and the app generates Arduino code that draws exactly what you see.
+PXLWRIGHT is a browser-based editor for designing user interfaces for small displays, such as the common 0.96" SSD1306 OLED or round GC9A01 screens. You lay out your screen by dragging elements onto a pixel-accurate canvas, and the app generates Arduino code that draws exactly what you see.
 
 ## What it does
 
@@ -36,7 +36,7 @@ OLED Designer is a browser-based editor for designing user interfaces for small 
 
 Copyright © 2026 Rama Anumanchipalli. All rights reserved.
 
-Code you generate with OLED Designer is yours to use however you like.
+Code you generate with PXLWRIGHT is yours to use however you like.
 
 ### Third-party code
 

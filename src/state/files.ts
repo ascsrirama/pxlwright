@@ -11,7 +11,7 @@ export function downloadText(filename: string, text: string, type = 'text/plain'
 
 /** Download the current design as a .json project file. */
 export function saveProjectFile() {
-  downloadText('oled-design.json', editor.exportJson(), 'application/json');
+  downloadText('pxlwright-design.json', editor.exportJson(), 'application/json');
 }
 
 /** Load a .json project file chosen by the user. */

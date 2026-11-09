@@ -92,7 +92,7 @@ export interface Toast {
 function starterProject(): Project {
   const d = configFromPreset(PRESETS[0]);
   const t = createElement('text', d, 4, 4, 1);
-  Object.assign(t, { name: 'Title', text: 'OLED Designer', size: 1 });
+  Object.assign(t, { name: 'Title', text: 'PXLWRIGHT', size: 1 });
   const big = createElement('text', d, 4, 20, 2);
   Object.assign(big, { name: 'Reading', text: '23.5 C', size: 3 });
   const bat = createElement('battery', d, 104, 3, 1);
@@ -240,7 +240,7 @@ class Editor {
 
   importJson(text: string) {
     const p = JSON.parse(text) as Project;
-    if (p.version !== 1 || !p.display || !Array.isArray(p.elements)) throw new Error('This is not an OLED Designer project file.');
+    if (p.version !== 1 || !p.display || !Array.isArray(p.elements)) throw new Error('This is not a PXLWRIGHT project file.');
     p.display.presetId = presetById(p.display.presetId).id;
     this.load(p);
   }
