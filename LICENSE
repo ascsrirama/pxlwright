@@ -1,0 +1,24 @@
+Copyright (c) 2026 Rama Anumanchipalli. All rights reserved.
+
+This software and its source code (the "Software") are the property of
+Rama Anumanchipalli. The source code is made visible for reference only.
+
+No licence is granted to use, copy, modify, merge, publish, distribute,
+sublicense, host, or sell the Software or any part of it, in source or
+compiled form, without prior written permission from the copyright holder.
+
+Output you create with the Software, such as Arduino code it generates for
+your designs, belongs to you and may be used for any purpose.
+
+Third-party components: portions of the Software are derived from the
+Adafruit GFX Library, Copyright (c) 2012 Adafruit Industries, and are used
+under the BSD licence. Those portions remain subject to that licence; see
+the NOTICE file.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+For permission or licensing enquiries, contact asc.srirama@gmail.com.

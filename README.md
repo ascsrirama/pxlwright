@@ -8,7 +8,6 @@ PXLWRIGHT is a browser-based editor for designing user interfaces for small disp
 - **Design visually.** Add text, rectangles, circles, lines, images and icons, plus ready-made widgets: progress bar, battery, signal bars, toggle, menu list and arc gauge. Move, resize, reorder, lock, hide, duplicate, undo and redo.
 - **Import images.** Pictures are converted to 1-bit bitmaps, with threshold, invert and dithering controls.
 - **Get the code.** Export a complete Arduino sketch for your display driver, or just a `drawUI()` function to paste into an existing project. Code targets the Adafruit GFX library, and the preview matches its output pixel for pixel.
-- **Save your work.** Designs autosave in the browser and can be saved to or opened from a `.json` project file.
 
 ## Supported displays
 
@@ -35,6 +34,8 @@ PXLWRIGHT is a browser-based editor for designing user interfaces for small disp
 ## Copyright and licence
 
 Copyright © 2026 Rama Anumanchipalli. All rights reserved.
+
+The source code is published for reference only. It may not be used, copied, modified or redistributed without written permission. See [`LICENSE`](LICENSE).
 
 Code you generate with PXLWRIGHT is yours to use however you like.
 
