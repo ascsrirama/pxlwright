@@ -3,7 +3,7 @@
 
 <div class="empty">
   <h3>Properties</h3>
-  <p class="hint">Select something on the screen or in Layers to edit it.</p>
+  <p class="hint">Select something on the screen or in Layers to edit it and its properties will show here.</p>
   <ul class="tips">
     <li>Drag to move, use the handles to resize.</li>
     <li>Arrow keys nudge 1&nbsp;px (Shift = 8&nbsp;px).</li>
