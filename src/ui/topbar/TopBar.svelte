@@ -3,6 +3,7 @@
   import { editor } from '../../state/editor.svelte';
   import { newProject, openProjectFile, saveProjectFile } from '../../state/files';
   import Icon from '../common/Icon.svelte';
+  import ascLogo from '../../assets/asc-logo.png';
 
   let { onexport }: { onexport: () => void } = $props();
 
@@ -27,6 +28,9 @@
       <path d="M6 15h3v-4h3v2h3v-3h3" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" />
     </svg>
     <span class="wordmark"><span class="pxl">PXL</span>WRIGHT</span>
+    <a class="maker" href="https://github.com/ascsrirama" target="_blank" rel="noopener" title="Made by Rama (ASC)">
+      <span>by</span><img src={ascLogo} alt="ASC" height="24" />
+    </a>
   </div>
 
   <div class="tools">
@@ -60,7 +64,17 @@
     border-bottom: 1px solid var(--line);
   }
   .brand { display: flex; align-items: center; gap: 9px; }
-  .brand svg { filter: drop-shadow(0 0 4px var(--accent-line)); }
+  .brand > svg { filter: drop-shadow(0 0 4px var(--accent-line)); }
+  .maker {
+    display: flex; align-items: center; gap: 6px;
+    margin-left: 4px; padding-left: 10px;
+    border-left: 1px solid var(--line-2);
+    font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--dim); text-decoration: none;
+    transition: color 0.15s;
+  }
+  .maker:hover { color: var(--text); }
+  .maker img { display: block; height: 24px; width: auto; }
   .wordmark { font-family: var(--brand-font); font-weight: 800; font-size: 14px; letter-spacing: 0.22em; }
   .pxl { color: var(--accent); text-shadow: 0 0 8px var(--accent-line), 0 0 2px var(--accent); }
   .tools, .zoom { display: flex; align-items: center; gap: 4px; }
